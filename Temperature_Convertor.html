@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert Ease</title>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <label for="temperature">Enter Temperature (Decimal up to 2 points):</label>
+    <input type="number" step="0.01" id="temperature"><br>
+
+    <label for="fromUnit">Select Initial Unit:</label>
+    <select id="fromUnit">
+        <option value="kelvin">Kelvin</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select><br>
+
+    <label for="toUnit">Select Unit for Conversion:</label>
+    <select id="toUnit">
+        <option value="kelvin">Kelvin</option>
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+    </select><br>
+
+    <button onclick="convertTemperature()">Convert</button>
+    <script src="function_convert_Temperature.js"></script>
+
+    <p id="result">Result: </p>
+    
+    <p><a href="Area_Convertor.html">Area</a></p>
+    <p><a href="Mass_Convertor.html">Mass</a></p>
+    <p><a href="index.html">Main Menu</a></p>
+</body>
+</html>

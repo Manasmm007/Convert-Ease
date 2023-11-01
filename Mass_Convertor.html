@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert Ease</title>
+</head>
+<body>
+   <h1>Mass Converter</h1>
+    <label for="mass">Enter Mass (Decimal up to 2 points):</label>
+    <input type="number" step="0.01" id="mass"><br>
+
+    <label for="fromUnit2">Select Initial Unit:</label>
+    <select id="fromUnit2">
+        <option value="kg">Kilo Gram</option>
+        <option value="lbs">Pound</option>
+        <option value="tael">Tael</option>
+    </select><br>
+
+    <label for="toUnit2">Select Unit for Conversion:</label>
+    <select id="toUnit2">
+        <option value="kg">Kilogram</option>
+        <option value="lbs">Pound</option>
+        <option value="tael">Tael</option>
+    </select><br>
+
+    <button onclick="convertMass()">Convert</button>
+    <script src="function_convert_Mass.js"></script>
+    
+
+    <p id="result2">Result: </p>
+    
+    <p><a href="Temperature_Convertor.html">Temperature</a></p>
+    <p><a href="Area_Convertor.html">Area</a></p>
+    <p><a href="Converters.html">Main Menu</a></p>
+</body>
+</html>

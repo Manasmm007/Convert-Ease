@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Convert Ease</title>
+</head>
+<body>
+<h1>Area Converter</h1>
+    <label for="area">Enter Area (Decimal up to 2 points):</label>
+    <input type="number" step="0.01" id="area"><br>
+
+    <label for="fromUnit3">Select Initial Unit:</label>
+    <select id="fromUnit3">
+        <option value="sqm">m^2</option>
+        <option value="sqyd">Yard^2</option>
+        <option value="sqft">Foot^2</option>
+    </select><br>
+
+    <label for="toUnit3">Select Unit for Conversion:</label>
+    <select id="toUnit3">
+        <option value="sqm">m^2</option>
+        <option value="sqyd">Yard^2</option>
+        <option value="sqft">Foot^2</option>
+    </select><br>
+
+    <button onclick="convertArea()">Convert</button>
+    <script src="function_convert_Area.js"></script>
+
+    <p id="result3">Result: </p>
+    
+    <p><a href="Temperature_Convertor.html">Temperature</a></p>
+    <p><a href="Mass_Convertor.html">Mass</a></p>
+    <p><a href="index.html">Main Menu</a></p>
+    
+</body>
+</html>
