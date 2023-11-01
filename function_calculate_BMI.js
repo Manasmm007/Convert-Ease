@@ -2,7 +2,7 @@ function calBMI(){
       var height = parseFloat(document.getElementById("height").value);
       var mass = document.getElementById("mass").value;
 
-      var result4 = (mass*100)/(height*height);
+      var result4 = (mass*10000)/(height*height);
       var a="";
 
       if(result4<18.5)
